@@ -52,5 +52,5 @@ jobs:
       - name: Upload Allure Report as Artifact
         uses: actions/upload-artifact@v4
         with:
-          name: allure-reports
-          path: allure-reports
+          name: allure-report
+          path: allure-report
