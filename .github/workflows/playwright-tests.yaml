@@ -33,6 +33,7 @@ jobs:
         pip install pytest-xdist
         pip install urllib3
         pip install pytest-html
+        pip install requests
 
     # Run tests and generate the HTML report
     - name: Run tests
