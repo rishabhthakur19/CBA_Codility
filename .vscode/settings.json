@@ -1,0 +1,7 @@
+{
+    "python.testing.pytestArgs": [
+        "PetStoreAPITests"
+    ],
+    "python.testing.unittestEnabled": false,
+    "python.testing.pytestEnabled": true
+}
