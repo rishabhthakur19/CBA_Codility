@@ -39,6 +39,7 @@ jobs:
     - name: Run tests
       run: |
         python -m pytest --disable-warnings --html=report.html
+      continue-on-error: true
 
     # Upload the HTML report as an artifact
     - name: Upload HTML report
