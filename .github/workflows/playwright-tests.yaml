@@ -34,6 +34,7 @@ jobs:
           playwright install
           pip install pytest-xdist
           pip install urllib3
+          pip install requests
           pip install allure-pytest
           npm install -g allure-commandline --save-dev
 
