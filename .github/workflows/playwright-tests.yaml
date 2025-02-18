@@ -32,6 +32,7 @@ jobs:
         playwright install
         pip install pytest-xdist
         pip install urllib3
+        pip install pytest-html
 
     # Run tests and generate the HTML report
     - name: Run tests
