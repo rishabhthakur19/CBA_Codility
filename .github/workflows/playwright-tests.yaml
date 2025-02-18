@@ -1,6 +1,7 @@
 name: Playwright Tests with Allure Report
 
 on:
+  workflow_dispatch:
   push:
     branches:
       - main
